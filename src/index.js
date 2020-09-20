@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://gq10d.csb.app"
+    origin: "https://event-list-sathesh.netlify.app"
   })
 );
 app.use(helmet());
