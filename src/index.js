@@ -99,6 +99,6 @@ app.get("*", (request, response) => {
   response.status(200).send("Page Not Found");
 });
 
-app.listen(8080, () => {
+app.listen( process.env.PORT || 8080, () => {
   console.log("Server is up and running!!");
 });
